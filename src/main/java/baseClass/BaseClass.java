@@ -17,6 +17,7 @@ public class BaseClass
 	{		
 		value = System.getProperty("user.dir")+"\\Softwares\\chromedriver.exe";
 		System.setProperty(key, value );
+		
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
