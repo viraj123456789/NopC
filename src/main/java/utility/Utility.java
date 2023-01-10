@@ -4,7 +4,9 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Date;
+import java.util.Properties;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
@@ -22,6 +24,7 @@ public class Utility
 		FileInputStream file = new FileInputStream(System.getProperty("user.dir")+"\\TestData\\TestData1.xlsx");
 		wbf = WorkbookFactory.create(file);
 		String StrinData = wbf.getSheet(SheetName).getRow(rowNo - 1).getCell(cellNo - 1).getStringCellValue();
+		
 		return StrinData;
 	}
 	
@@ -50,7 +53,16 @@ public class Utility
 		File dest = new File(System.getProperty("user.dir")+"\\ScreenShot\\"+ timestamp +".jpg");
 		FileHandler.copy(source, dest);	
 	}
-	
-	
-	
+	public static String readPropertyFile(String key) throws IOException
+	{
+		Properties prop = new Properties();
+		FileInputStream propFile = new FileInputStream(System.getProperty("user.dir")+"\\propFlile.properties");
+		prop.load(propFile);
+		String value = prop.getProperty(key);
+		return value;
+	}
+	public static void log ()   //Log4j
+	{
+		
+	}
 }

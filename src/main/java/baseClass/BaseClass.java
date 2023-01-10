@@ -20,7 +20,7 @@ public class BaseClass
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
+		
 		driver.get(url);
 	}
 	public static void firefox() 
