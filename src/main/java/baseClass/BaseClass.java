@@ -9,6 +9,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BaseClass 
 {
+	public static void main(String[] args) {
+		System.out.Println();
+
+	}
 	static String key = "webdriver.chrome.driver";
 	static String url = "https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F";
 	static String value;
