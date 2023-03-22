@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Tital is Verified]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="22414" started-at="2023-01-10T16:00:50 IST" finished-at="2023-01-10T16:01:13 IST">
+  <suite started-at="2023-03-21T13:26:58 IST" name="Default suite" finished-at="2023-03-21T13:27:20 IST" duration-ms="21728">
     <groups>
       <group name="Regression">
-        <method signature="TestClass_TestNG.LogInValidation()[pri:3, instance:testValidation.TestClass_TestNG@6ff29830]" name="LogInValidation" class="testValidation.TestClass_TestNG"/>
+        <method signature="TestClass_TestNG.LogInValidation()[pri:3, instance:testValidation.TestClass_TestNG@163d04ff]" name="LogInValidation" class="testValidation.TestClass_TestNG"/>
       </group> <!-- Regression -->
     </groups>
-    <test name="Test" duration-ms="22414" started-at="2023-01-10T16:00:50 IST" finished-at="2023-01-10T16:01:13 IST">
+    <test started-at="2023-03-21T13:26:58 IST" name="Default test" finished-at="2023-03-21T13:27:20 IST" duration-ms="21728">
       <class name="testValidation.TestClass_TestNG">
-        <test-method status="PASS" signature="BrowserOpen()[pri:0, instance:testValidation.TestClass_TestNG@6ff29830]" name="BrowserOpen" is-config="true" duration-ms="10234" started-at="2023-01-10T16:00:50 IST" finished-at="2023-01-10T16:01:01 IST">
+        <test-method is-config="true" signature="BrowserOpen()[pri:0, instance:testValidation.TestClass_TestNG@163d04ff]" started-at="2023-03-21T13:26:58 IST" name="BrowserOpen" finished-at="2023-03-21T13:27:10 IST" duration-ms="11067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserOpen -->
-        <test-method status="PASS" signature="TitalValidation()[pri:1, instance:testValidation.TestClass_TestNG@6ff29830]" name="TitalValidation" duration-ms="2802" started-at="2023-01-10T16:01:01 IST" finished-at="2023-01-10T16:01:03 IST">
+        <test-method signature="TitalValidation()[pri:1, instance:testValidation.TestClass_TestNG@163d04ff]" started-at="2023-03-21T13:27:10 IST" name="TitalValidation" finished-at="2023-03-21T13:27:11 IST" duration-ms="1660" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Tital is Verified]]>
             </line>
           </reporter-output>
         </test-method> <!-- TitalValidation -->
-        <test-method status="PASS" signature="CheckBoxValidation()[pri:2, instance:testValidation.TestClass_TestNG@6ff29830]" name="CheckBoxValidation" duration-ms="199" started-at="2023-01-10T16:01:03 IST" finished-at="2023-01-10T16:01:04 IST">
+        <test-method signature="CheckBoxValidation()[pri:2, instance:testValidation.TestClass_TestNG@163d04ff]" started-at="2023-03-21T13:27:11 IST" name="CheckBoxValidation" finished-at="2023-03-21T13:27:11 IST" duration-ms="85" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckBoxValidation -->
-        <test-method status="PASS" signature="LogInValidation()[pri:3, instance:testValidation.TestClass_TestNG@6ff29830]" name="LogInValidation" duration-ms="7929" started-at="2023-01-10T16:01:04 IST" finished-at="2023-01-10T16:01:12 IST">
+        <test-method signature="LogInValidation()[pri:3, instance:testValidation.TestClass_TestNG@163d04ff]" started-at="2023-03-21T13:27:11 IST" name="LogInValidation" finished-at="2023-03-21T13:27:19 IST" duration-ms="7757" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogInValidation -->
-        <test-method status="PASS" signature="LogoValidation()[pri:0, instance:testValidation.TestClass_TestNG@6ff29830]" name="LogoValidation" duration-ms="586" started-at="2023-01-10T16:01:12 IST" depends-on-methods="testValidation.TestClass_TestNG.LogInValidation" finished-at="2023-01-10T16:01:12 IST">
+        <test-method signature="LogoValidation()[pri:0, instance:testValidation.TestClass_TestNG@163d04ff]" started-at="2023-03-21T13:27:19 IST" name="LogoValidation" finished-at="2023-03-21T13:27:19 IST" depends-on-methods="testValidation.TestClass_TestNG.LogInValidation" duration-ms="358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogoValidation -->
-        <test-method status="PASS" signature="BrowseClose()[pri:0, instance:testValidation.TestClass_TestNG@6ff29830]" name="BrowseClose" is-config="true" duration-ms="520" started-at="2023-01-10T16:01:12 IST" finished-at="2023-01-10T16:01:13 IST">
+        <test-method is-config="true" signature="BrowseClose()[pri:0, instance:testValidation.TestClass_TestNG@163d04ff]" started-at="2023-03-21T13:27:19 IST" name="BrowseClose" finished-at="2023-03-21T13:27:20 IST" duration-ms="670" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowseClose -->
       </class> <!-- testValidation.TestClass_TestNG -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
